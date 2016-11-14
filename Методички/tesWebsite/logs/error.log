@@ -1,0 +1,734 @@
+[Wed Oct 05 21:46:03.199019 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/tania/projects/test/add/include/dbconnect.php on line 126, referer: http://test.local/
+[Wed Oct 05 21:46:03.199062 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.199073 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.199079 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Wed Oct 05 21:46:03.199084 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   3. mysql_connect() /home/tania/projects/test/add/include/dbconnect.php:126, referer: http://test.local/
+[Wed Oct 05 21:46:03.199109 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tania/projects/test/add/include/dbconnect.php on line 134, referer: http://test.local/
+[Wed Oct 05 21:46:03.199113 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.199117 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.199122 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Wed Oct 05 21:46:03.199126 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   3. mysql_select_db() /home/tania/projects/test/add/include/dbconnect.php:134, referer: http://test.local/
+[Wed Oct 05 21:46:03.199424 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Wed Oct 05 21:46:03.199438 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.199443 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.199448 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Wed Oct 05 21:46:03.199453 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Wed Oct 05 21:46:03.199460 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Wed Oct 05 21:46:03.199464 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.199468 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.199473 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Wed Oct 05 21:46:03.199477 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Wed Oct 05 21:46:03.199682 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Wed Oct 05 21:46:03.199692 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.199698 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.199710 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Wed Oct 05 21:46:03.199715 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Wed Oct 05 21:46:03.199722 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Wed Oct 05 21:46:03.199726 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.199730 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.199734 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Wed Oct 05 21:46:03.199739 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Wed Oct 05 21:46:03.201110 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Wed Oct 05 21:46:03.201134 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.201141 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.201147 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Wed Oct 05 21:46:03.201155 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Wed Oct 05 21:46:03.201159 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.201163 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.201167 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Wed Oct 05 21:46:03.201179 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 60, referer: http://test.local/
+[Wed Oct 05 21:46:03.201182 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.201187 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.201191 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:60, referer: http://test.local/
+[Wed Oct 05 21:46:03.201490 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Wed Oct 05 21:46:03.201502 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.201508 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.201513 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Wed Oct 05 21:46:03.201528 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Wed Oct 05 21:46:03.201532 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.201537 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.201541 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Wed Oct 05 21:46:03.201552 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 79, referer: http://test.local/
+[Wed Oct 05 21:46:03.201556 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.201560 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.201565 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:79, referer: http://test.local/
+[Wed Oct 05 21:46:03.201572 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 81, referer: http://test.local/
+[Wed Oct 05 21:46:03.201576 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.201580 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.201585 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:81, referer: http://test.local/
+[Wed Oct 05 21:46:03.201996 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 108, referer: http://test.local/
+[Wed Oct 05 21:46:03.202011 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.202019 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.202027 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:108, referer: http://test.local/
+[Wed Oct 05 21:46:03.202314 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Wed Oct 05 21:46:03.202328 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.202335 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.202339 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Wed Oct 05 21:46:03.202347 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Wed Oct 05 21:46:03.202351 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.202355 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.202369 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Wed Oct 05 21:46:03.202383 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 199, referer: http://test.local/
+[Wed Oct 05 21:46:03.202386 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.202391 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.202395 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:199, referer: http://test.local/
+[Wed Oct 05 21:46:03.202403 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 201, referer: http://test.local/
+[Wed Oct 05 21:46:03.202407 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP Stack trace:, referer: http://test.local/
+[Wed Oct 05 21:46:03.202411 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Wed Oct 05 21:46:03.202416 2016] [:error] [pid 5015] [client 127.0.0.1:47256] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:201, referer: http://test.local/
+[Wed Oct 05 21:50:53.129684 2016] [:error] [pid 5094] [client 127.0.0.1:47511] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 05 21:50:53.129726 2016] [:error] [pid 5094] [client 127.0.0.1:47511] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 05 21:50:53.129739 2016] [:error] [pid 5094] [client 127.0.0.1:47511] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 05 21:59:57.372871 2016] [:error] [pid 5019] [client 127.0.0.1:47907] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 05 21:59:57.372917 2016] [:error] [pid 5019] [client 127.0.0.1:47907] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 05 21:59:57.372932 2016] [:error] [pid 5019] [client 127.0.0.1:47907] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 08:51:59.241586 2016] [:error] [pid 18655] [client 127.0.0.1:52687] PHP Notice:  Undefined index: from in /home/tania/projects/test/add/preferences.php on line 9, referer: http://test.local/preferences.php?from=%2Findex.php%3Flang%3Des
+[Wed Oct 12 08:51:59.263184 2016] [:error] [pid 18655] [client 127.0.0.1:52687] PHP Stack trace:, referer: http://test.local/preferences.php?from=%2Findex.php%3Flang%3Des
+[Wed Oct 12 08:51:59.263213 2016] [:error] [pid 18655] [client 127.0.0.1:52687] PHP   1. {main}() /home/tania/projects/test/add/preferences.php:0, referer: http://test.local/preferences.php?from=%2Findex.php%3Flang%3Des
+[Wed Oct 12 08:52:03.609837 2016] [:error] [pid 1917] [client 127.0.0.1:52683] PHP Notice:  Undefined index: from in /home/tania/projects/test/add/preferences.php on line 9, referer: http://test.local/preferences.php?from=%2Fpreferences.php%3Flang%3Dru
+[Wed Oct 12 08:52:03.609868 2016] [:error] [pid 1917] [client 127.0.0.1:52683] PHP Stack trace:, referer: http://test.local/preferences.php?from=%2Fpreferences.php%3Flang%3Dru
+[Wed Oct 12 08:52:03.609875 2016] [:error] [pid 1917] [client 127.0.0.1:52683] PHP   1. {main}() /home/tania/projects/test/add/preferences.php:0, referer: http://test.local/preferences.php?from=%2Fpreferences.php%3Flang%3Dru
+[Wed Oct 12 08:52:17.438490 2016] [:error] [pid 18654] [client 127.0.0.1:52693] PHP Notice:  Undefined index: from in /home/tania/projects/test/add/preferences.php on line 9, referer: http://test.local/preferences.php?from=%2Findex.php
+[Wed Oct 12 08:52:17.438536 2016] [:error] [pid 18654] [client 127.0.0.1:52693] PHP Stack trace:, referer: http://test.local/preferences.php?from=%2Findex.php
+[Wed Oct 12 08:52:17.438550 2016] [:error] [pid 18654] [client 127.0.0.1:52693] PHP   1. {main}() /home/tania/projects/test/add/preferences.php:0, referer: http://test.local/preferences.php?from=%2Findex.php
+[Wed Oct 12 08:52:43.779531 2016] [:error] [pid 18774] [client 127.0.0.1:52703] PHP Notice:  Undefined index: from in /home/tania/projects/test/add/preferences.php on line 9, referer: http://test.local/preferences.php?from=%2Fpreferences.php%3Ffrom%3D%252Findex.php%253Flang%253Dzh
+[Wed Oct 12 08:52:43.779582 2016] [:error] [pid 18774] [client 127.0.0.1:52703] PHP Stack trace:, referer: http://test.local/preferences.php?from=%2Fpreferences.php%3Ffrom%3D%252Findex.php%253Flang%253Dzh
+[Wed Oct 12 08:52:43.779599 2016] [:error] [pid 18774] [client 127.0.0.1:52703] PHP   1. {main}() /home/tania/projects/test/add/preferences.php:0, referer: http://test.local/preferences.php?from=%2Fpreferences.php%3Ffrom%3D%252Findex.php%253Flang%253Dzh
+[Wed Oct 12 08:53:27.583561 2016] [:error] [pid 18817] [client 127.0.0.1:52718] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/birthdays.php
+[Wed Oct 12 08:53:27.583598 2016] [:error] [pid 18817] [client 127.0.0.1:52718] PHP Stack trace:, referer: http://test.local/birthdays.php
+[Wed Oct 12 08:53:27.583607 2016] [:error] [pid 18817] [client 127.0.0.1:52718] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/birthdays.php
+[Wed Oct 12 08:54:22.112412 2016] [:error] [pid 18743] [client 127.0.0.1:52739] PHP Notice:  Undefined index: from in /home/tania/projects/test/add/preferences.php on line 9, referer: http://test.local/preferences.php?from=%2Fbirthdays.php
+[Wed Oct 12 08:54:22.112498 2016] [:error] [pid 18743] [client 127.0.0.1:52739] PHP Stack trace:, referer: http://test.local/preferences.php?from=%2Fbirthdays.php
+[Wed Oct 12 08:54:22.112527 2016] [:error] [pid 18743] [client 127.0.0.1:52739] PHP   1. {main}() /home/tania/projects/test/add/preferences.php:0, referer: http://test.local/preferences.php?from=%2Fbirthdays.php
+[Wed Oct 12 08:54:26.633439 2016] [:error] [pid 18802] [client 127.0.0.1:52748] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 08:54:26.633481 2016] [:error] [pid 18802] [client 127.0.0.1:52748] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 08:54:26.633490 2016] [:error] [pid 18802] [client 127.0.0.1:52748] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 08:54:29.129187 2016] [:error] [pid 18654] [client 127.0.0.1:52746] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 08:54:29.129216 2016] [:error] [pid 18654] [client 127.0.0.1:52746] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 08:54:29.129224 2016] [:error] [pid 18654] [client 127.0.0.1:52746] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 08:54:37.372855 2016] [:error] [pid 18817] [client 127.0.0.1:52749] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 08:54:37.372896 2016] [:error] [pid 18817] [client 127.0.0.1:52749] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 08:54:37.372910 2016] [:error] [pid 18817] [client 127.0.0.1:52749] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 08:54:40.694841 2016] [:error] [pid 18649] [client 127.0.0.1:52752] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 08:54:40.694883 2016] [:error] [pid 18649] [client 127.0.0.1:52752] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 08:54:40.694893 2016] [:error] [pid 18649] [client 127.0.0.1:52752] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 08:54:47.325926 2016] [:error] [pid 18817] [client 127.0.0.1:52749] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 08:54:47.325994 2016] [:error] [pid 18817] [client 127.0.0.1:52749] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 08:54:47.326017 2016] [:error] [pid 18817] [client 127.0.0.1:52749] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 08:54:50.681547 2016] [:error] [pid 18774] [client 127.0.0.1:52751] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 08:54:50.681590 2016] [:error] [pid 18774] [client 127.0.0.1:52751] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 08:54:50.681599 2016] [:error] [pid 18774] [client 127.0.0.1:52751] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 08:54:52.394331 2016] [:error] [pid 18655] [client 127.0.0.1:52753] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?more_langs=yes
+[Wed Oct 12 08:54:52.394369 2016] [:error] [pid 18655] [client 127.0.0.1:52753] PHP Stack trace:, referer: http://test.local/edit.php?more_langs=yes
+[Wed Oct 12 08:54:52.394380 2016] [:error] [pid 18655] [client 127.0.0.1:52753] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?more_langs=yes
+[Wed Oct 12 08:55:02.436778 2016] [:error] [pid 1917] [client 127.0.0.1:52757] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?lang=pt
+[Wed Oct 12 08:55:02.436811 2016] [:error] [pid 1917] [client 127.0.0.1:52757] PHP Stack trace:, referer: http://test.local/edit.php?lang=pt
+[Wed Oct 12 08:55:02.436819 2016] [:error] [pid 1917] [client 127.0.0.1:52757] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?lang=pt
+[Wed Oct 12 08:55:11.886652 2016] [:error] [pid 18743] [client 127.0.0.1:52763] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 08:55:11.886688 2016] [:error] [pid 18743] [client 127.0.0.1:52763] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 08:55:11.886699 2016] [:error] [pid 18743] [client 127.0.0.1:52763] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 08:55:13.796473 2016] [:error] [pid 18929] [client 127.0.0.1:52767] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 08:55:13.796513 2016] [:error] [pid 18929] [client 127.0.0.1:52767] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 08:55:13.796523 2016] [:error] [pid 18929] [client 127.0.0.1:52767] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 08:55:21.329476 2016] [:error] [pid 18774] [client 127.0.0.1:52766] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 08:55:21.329512 2016] [:error] [pid 18774] [client 127.0.0.1:52766] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 08:55:21.329523 2016] [:error] [pid 18774] [client 127.0.0.1:52766] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 08:55:24.291293 2016] [:error] [pid 18656] [client 127.0.0.1:52764] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 08:55:24.291329 2016] [:error] [pid 18656] [client 127.0.0.1:52764] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 08:55:24.291338 2016] [:error] [pid 18656] [client 127.0.0.1:52764] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 08:55:25.787798 2016] [:error] [pid 1914] [client 127.0.0.1:52769] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?more_langs=yes
+[Wed Oct 12 08:55:25.787856 2016] [:error] [pid 1914] [client 127.0.0.1:52769] PHP Stack trace:, referer: http://test.local/edit.php?more_langs=yes
+[Wed Oct 12 08:55:25.787875 2016] [:error] [pid 1914] [client 127.0.0.1:52769] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?more_langs=yes
+[Wed Oct 12 08:55:30.385810 2016] [:error] [pid 18929] [client 127.0.0.1:52767] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?lang=pt
+[Wed Oct 12 08:55:30.385846 2016] [:error] [pid 18929] [client 127.0.0.1:52767] PHP Stack trace:, referer: http://test.local/edit.php?lang=pt
+[Wed Oct 12 08:55:30.385857 2016] [:error] [pid 18929] [client 127.0.0.1:52767] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?lang=pt
+[Wed Oct 12 08:55:38.786860 2016] [:error] [pid 18654] [client 127.0.0.1:52771] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?lang=ar
+[Wed Oct 12 08:55:38.786899 2016] [:error] [pid 18654] [client 127.0.0.1:52771] PHP Stack trace:, referer: http://test.local/edit.php?lang=ar
+[Wed Oct 12 08:55:38.786914 2016] [:error] [pid 18654] [client 127.0.0.1:52771] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?lang=ar
+[Wed Oct 12 08:55:42.874924 2016] [:error] [pid 18774] [client 127.0.0.1:52775] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?lang=es
+[Wed Oct 12 08:55:42.874952 2016] [:error] [pid 18774] [client 127.0.0.1:52775] PHP Stack trace:, referer: http://test.local/edit.php?lang=es
+[Wed Oct 12 08:55:42.874959 2016] [:error] [pid 18774] [client 127.0.0.1:52775] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?lang=es
+[Wed Oct 12 08:55:46.593593 2016] [:error] [pid 18862] [client 127.0.0.1:52773] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?lang=ru
+[Wed Oct 12 08:55:46.593643 2016] [:error] [pid 18862] [client 127.0.0.1:52773] PHP Stack trace:, referer: http://test.local/edit.php?lang=ru
+[Wed Oct 12 08:55:46.593660 2016] [:error] [pid 18862] [client 127.0.0.1:52773] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?lang=ru
+[Wed Oct 12 08:55:51.333804 2016] [:error] [pid 18743] [client 127.0.0.1:52774] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?lang=fr
+[Wed Oct 12 08:55:51.333846 2016] [:error] [pid 18743] [client 127.0.0.1:52774] PHP Stack trace:, referer: http://test.local/edit.php?lang=fr
+[Wed Oct 12 08:55:51.333861 2016] [:error] [pid 18743] [client 127.0.0.1:52774] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?lang=fr
+[Wed Oct 12 08:56:03.156189 2016] [:error] [pid 18656] [client 127.0.0.1:52779] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php?lang=zh
+[Wed Oct 12 08:56:03.156243 2016] [:error] [pid 18656] [client 127.0.0.1:52779] PHP Stack trace:, referer: http://test.local/index.php?lang=zh
+[Wed Oct 12 08:56:03.156256 2016] [:error] [pid 18656] [client 127.0.0.1:52779] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php?lang=zh
+[Wed Oct 12 08:56:05.392647 2016] [:error] [pid 1914] [client 127.0.0.1:52777] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 08:56:05.392682 2016] [:error] [pid 1914] [client 127.0.0.1:52777] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 08:56:05.392698 2016] [:error] [pid 1914] [client 127.0.0.1:52777] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 08:56:57.076388 2016] [:error] [pid 1914] [client 127.0.0.1:52789] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 08:56:57.076435 2016] [:error] [pid 1914] [client 127.0.0.1:52789] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 08:56:57.076452 2016] [:error] [pid 1914] [client 127.0.0.1:52789] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 08:57:16.704537 2016] [:error] [pid 18929] [client 127.0.0.1:52791] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 08:57:16.704566 2016] [:error] [pid 18929] [client 127.0.0.1:52791] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 08:57:16.704577 2016] [:error] [pid 18929] [client 127.0.0.1:52791] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 08:57:19.104261 2016] [:error] [pid 19005] [client 127.0.0.1:52794] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?more_langs=yes
+[Wed Oct 12 08:57:19.104305 2016] [:error] [pid 19005] [client 127.0.0.1:52794] PHP Stack trace:, referer: http://test.local/edit.php?more_langs=yes
+[Wed Oct 12 08:57:19.104319 2016] [:error] [pid 19005] [client 127.0.0.1:52794] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?more_langs=yes
+[Wed Oct 12 08:57:29.094576 2016] [:error] [pid 18774] [client 127.0.0.1:52798] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php?lang=he
+[Wed Oct 12 08:57:29.094609 2016] [:error] [pid 18774] [client 127.0.0.1:52798] PHP Stack trace:, referer: http://test.local/edit.php?lang=he
+[Wed Oct 12 08:57:29.094619 2016] [:error] [pid 18774] [client 127.0.0.1:52798] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php?lang=he
+[Wed Oct 12 08:57:50.420155 2016] [:error] [pid 18743] [client 127.0.0.1:52805] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/birthdays.php
+[Wed Oct 12 08:57:50.420188 2016] [:error] [pid 18743] [client 127.0.0.1:52805] PHP Stack trace:, referer: http://test.local/birthdays.php
+[Wed Oct 12 08:57:50.420197 2016] [:error] [pid 18743] [client 127.0.0.1:52805] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/birthdays.php
+[Wed Oct 12 08:57:54.735372 2016] [:error] [pid 19005] [client 127.0.0.1:52807] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 08:57:54.735432 2016] [:error] [pid 19005] [client 127.0.0.1:52807] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 08:57:54.735454 2016] [:error] [pid 19005] [client 127.0.0.1:52807] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 09:00:29.330704 2016] [:error] [pid 18743] [client 127.0.0.1:52857] PHP Notice:  Undefined variable: selected in /home/tania/projects/test/add/group.php on line 125, referer: http://test.local/group.php
+[Wed Oct 12 09:00:29.330754 2016] [:error] [pid 18743] [client 127.0.0.1:52857] PHP Stack trace:, referer: http://test.local/group.php
+[Wed Oct 12 09:00:29.330765 2016] [:error] [pid 18743] [client 127.0.0.1:52857] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/group.php
+[Wed Oct 12 09:00:29.342661 2016] [:error] [pid 18743] [client 127.0.0.1:52857] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/group.php on line 130, referer: http://test.local/group.php
+[Wed Oct 12 09:00:29.342726 2016] [:error] [pid 18743] [client 127.0.0.1:52857] PHP Stack trace:, referer: http://test.local/group.php
+[Wed Oct 12 09:00:29.342738 2016] [:error] [pid 18743] [client 127.0.0.1:52857] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/group.php
+[Wed Oct 12 09:00:29.342745 2016] [:error] [pid 18743] [client 127.0.0.1:52857] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/group.php:130, referer: http://test.local/group.php
+[Wed Oct 12 09:06:39.728805 2016] [:error] [pid 18743] [client 127.0.0.1:52877] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/group.php
+[Wed Oct 12 09:06:39.728834 2016] [:error] [pid 18743] [client 127.0.0.1:52877] PHP Stack trace:, referer: http://test.local/group.php
+[Wed Oct 12 09:06:39.728842 2016] [:error] [pid 18743] [client 127.0.0.1:52877] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/group.php
+[Wed Oct 12 09:08:31.935565 2016] [:error] [pid 19360] [client 127.0.0.1:52884] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 09:08:31.935601 2016] [:error] [pid 19360] [client 127.0.0.1:52884] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 09:08:31.935610 2016] [:error] [pid 19360] [client 127.0.0.1:52884] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 09:10:30.574067 2016] [:error] [pid 19079] [client 127.0.0.1:52893] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 09:10:30.574105 2016] [:error] [pid 19079] [client 127.0.0.1:52893] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 09:10:30.574113 2016] [:error] [pid 19079] [client 127.0.0.1:52893] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 09:14:17.551156 2016] [:error] [pid 19079] [client 127.0.0.1:52908] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 09:14:17.551195 2016] [:error] [pid 19079] [client 127.0.0.1:52908] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 09:14:17.551205 2016] [:error] [pid 19079] [client 127.0.0.1:52908] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 09:18:52.699109 2016] [:error] [pid 19108] [client 127.0.0.1:52980] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 09:18:52.699153 2016] [:error] [pid 19108] [client 127.0.0.1:52980] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 09:18:52.699167 2016] [:error] [pid 19108] [client 127.0.0.1:52980] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 09:19:24.741906 2016] [:error] [pid 20416] [client 127.0.0.1:52993] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 09:19:24.741948 2016] [:error] [pid 20416] [client 127.0.0.1:52993] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 09:19:24.741955 2016] [:error] [pid 20416] [client 127.0.0.1:52993] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 09:20:10.038320 2016] [:error] [pid 18774] [client 127.0.0.1:52997] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 09:20:10.045824 2016] [:error] [pid 18774] [client 127.0.0.1:52997] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 09:20:10.045841 2016] [:error] [pid 18774] [client 127.0.0.1:52997] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 09:20:12.822379 2016] [:error] [pid 20424] [client 127.0.0.1:53000] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/edit.php
+[Wed Oct 12 09:20:12.822422 2016] [:error] [pid 20424] [client 127.0.0.1:53000] PHP Stack trace:, referer: http://test.local/edit.php
+[Wed Oct 12 09:20:12.822432 2016] [:error] [pid 20424] [client 127.0.0.1:53000] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Wed Oct 12 09:20:14.913091 2016] [:error] [pid 20424] [client 127.0.0.1:53000] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Wed Oct 12 09:20:14.913119 2016] [:error] [pid 20424] [client 127.0.0.1:53000] PHP Stack trace:, referer: http://test.local/index.php
+[Wed Oct 12 09:20:14.913128 2016] [:error] [pid 20424] [client 127.0.0.1:53000] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Wed Oct 12 09:28:53.118001 2016] [:error] [pid 18774] [client 127.0.0.1:53046] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244
+[Wed Oct 12 09:28:53.118035 2016] [:error] [pid 18774] [client 127.0.0.1:53046] PHP Stack trace:
+[Wed Oct 12 09:28:53.118047 2016] [:error] [pid 18774] [client 127.0.0.1:53046] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0
+[Wed Oct 12 09:29:32.429580 2016] [:error] [pid 20577] [client 127.0.0.1:53509] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244
+[Wed Oct 12 09:29:32.429618 2016] [:error] [pid 20577] [client 127.0.0.1:53509] PHP Stack trace:
+[Wed Oct 12 09:29:32.429629 2016] [:error] [pid 20577] [client 127.0.0.1:53509] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0
+[Wed Oct 12 09:30:22.314417 2016] [:error] [pid 20577] [client 127.0.0.1:53979] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244
+[Wed Oct 12 09:30:22.314441 2016] [:error] [pid 20577] [client 127.0.0.1:53979] PHP Stack trace:
+[Wed Oct 12 09:30:22.314452 2016] [:error] [pid 20577] [client 127.0.0.1:53979] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0
+[Wed Oct 12 09:33:00.922253 2016] [:error] [pid 20416] [client 127.0.0.1:54442] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244
+[Wed Oct 12 09:33:00.922285 2016] [:error] [pid 20416] [client 127.0.0.1:54442] PHP Stack trace:
+[Wed Oct 12 09:33:00.922296 2016] [:error] [pid 20416] [client 127.0.0.1:54442] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0
+[Wed Oct 12 09:34:31.770303 2016] [:error] [pid 20577] [client 127.0.0.1:54946] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244
+[Wed Oct 12 09:34:31.770374 2016] [:error] [pid 20577] [client 127.0.0.1:54946] PHP Stack trace:
+[Wed Oct 12 09:34:31.770385 2016] [:error] [pid 20577] [client 127.0.0.1:54946] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0
+[Wed Oct 12 09:36:42.645387 2016] [:error] [pid 20054] [client 127.0.0.1:55385] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244
+[Wed Oct 12 09:36:42.645438 2016] [:error] [pid 20054] [client 127.0.0.1:55385] PHP Stack trace:
+[Wed Oct 12 09:36:42.645449 2016] [:error] [pid 20054] [client 127.0.0.1:55385] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0
+[Wed Oct 12 09:38:57.773993 2016] [:error] [pid 18774] [client 127.0.0.1:55868] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244
+[Wed Oct 12 09:38:57.774025 2016] [:error] [pid 18774] [client 127.0.0.1:55868] PHP Stack trace:
+[Wed Oct 12 09:38:57.774036 2016] [:error] [pid 18774] [client 127.0.0.1:55868] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0
+[Thu Oct 13 21:49:45.676227 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 126, referer: http://test.local/
+[Thu Oct 13 21:49:45.704357 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.704380 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.704385 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:45.704391 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   3. mysql_connect() /home/tania/projects/test/add/include/dbconnect.php:126, referer: http://test.local/
+[Thu Oct 13 21:49:45.721394 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tania/projects/test/add/include/dbconnect.php on line 134, referer: http://test.local/
+[Thu Oct 13 21:49:45.721447 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.721464 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.721473 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:45.721479 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   3. mysql_select_db() /home/tania/projects/test/add/include/dbconnect.php:134, referer: http://test.local/
+[Thu Oct 13 21:49:45.721616 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Thu Oct 13 21:49:45.721635 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.721645 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.721654 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:45.721662 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Thu Oct 13 21:49:45.721678 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Thu Oct 13 21:49:45.721684 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.721692 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.721700 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:45.721728 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Thu Oct 13 21:49:45.721795 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Thu Oct 13 21:49:45.721803 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.721811 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.721819 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:45.721827 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Thu Oct 13 21:49:45.721839 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Thu Oct 13 21:49:45.721845 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.721852 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.721859 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:45.721866 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Thu Oct 13 21:49:45.868275 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Thu Oct 13 21:49:45.868300 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.868308 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.868315 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Thu Oct 13 21:49:45.868325 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Thu Oct 13 21:49:45.868329 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.868335 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.868341 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Thu Oct 13 21:49:45.887945 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 60, referer: http://test.local/
+[Thu Oct 13 21:49:45.887983 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.887993 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.888000 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:60, referer: http://test.local/
+[Thu Oct 13 21:49:45.888192 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Thu Oct 13 21:49:45.888204 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.888211 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.888218 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Thu Oct 13 21:49:45.888228 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Thu Oct 13 21:49:45.888233 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.888239 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.888244 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Thu Oct 13 21:49:45.888260 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 79, referer: http://test.local/
+[Thu Oct 13 21:49:45.888265 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.888271 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.888277 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:79, referer: http://test.local/
+[Thu Oct 13 21:49:45.888291 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 81, referer: http://test.local/
+[Thu Oct 13 21:49:45.888296 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.888301 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.888307 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:81, referer: http://test.local/
+[Thu Oct 13 21:49:45.920960 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 108, referer: http://test.local/
+[Thu Oct 13 21:49:45.921032 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.921080 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.921109 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:108, referer: http://test.local/
+[Thu Oct 13 21:49:45.921728 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Thu Oct 13 21:49:45.921752 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.921810 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.921833 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Thu Oct 13 21:49:45.921875 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Thu Oct 13 21:49:45.921891 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.921913 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.921941 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Thu Oct 13 21:49:45.921991 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 199, referer: http://test.local/
+[Thu Oct 13 21:49:45.922006 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.922029 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.922057 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:199, referer: http://test.local/
+[Thu Oct 13 21:49:45.922101 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 201, referer: http://test.local/
+[Thu Oct 13 21:49:45.922122 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:45.922143 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:45.922165 2016] [:error] [pid 1910] [client 127.0.0.1:53862] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:201, referer: http://test.local/
+[Thu Oct 13 21:49:50.960880 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 126, referer: http://test.local/
+[Thu Oct 13 21:49:50.960920 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.960929 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.960937 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:50.960955 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   3. mysql_connect() /home/tania/projects/test/add/include/dbconnect.php:126, referer: http://test.local/
+[Thu Oct 13 21:49:50.960983 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tania/projects/test/add/include/dbconnect.php on line 134, referer: http://test.local/
+[Thu Oct 13 21:49:50.960988 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.960992 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.960996 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:50.961019 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   3. mysql_select_db() /home/tania/projects/test/add/include/dbconnect.php:134, referer: http://test.local/
+[Thu Oct 13 21:49:50.961057 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Thu Oct 13 21:49:50.961064 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961073 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961079 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:50.961085 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Thu Oct 13 21:49:50.961094 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Thu Oct 13 21:49:50.961099 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961104 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961109 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:50.961115 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Thu Oct 13 21:49:50.961153 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Thu Oct 13 21:49:50.961160 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961165 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961171 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:50.961177 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Thu Oct 13 21:49:50.961185 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Thu Oct 13 21:49:50.961188 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961191 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961195 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:49:50.961199 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Thu Oct 13 21:49:50.961568 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Thu Oct 13 21:49:50.961585 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961590 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961595 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Thu Oct 13 21:49:50.961601 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Thu Oct 13 21:49:50.961604 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961607 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961611 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Thu Oct 13 21:49:50.961621 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 60, referer: http://test.local/
+[Thu Oct 13 21:49:50.961625 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961628 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961632 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:60, referer: http://test.local/
+[Thu Oct 13 21:49:50.961667 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Thu Oct 13 21:49:50.961672 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961679 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961683 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Thu Oct 13 21:49:50.961689 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Thu Oct 13 21:49:50.961692 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961695 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961699 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Thu Oct 13 21:49:50.961706 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 79, referer: http://test.local/
+[Thu Oct 13 21:49:50.961709 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961713 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961717 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:79, referer: http://test.local/
+[Thu Oct 13 21:49:50.961729 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 81, referer: http://test.local/
+[Thu Oct 13 21:49:50.961733 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961736 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961741 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:81, referer: http://test.local/
+[Thu Oct 13 21:49:50.961814 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 108, referer: http://test.local/
+[Thu Oct 13 21:49:50.961819 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961823 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961827 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:108, referer: http://test.local/
+[Thu Oct 13 21:49:50.961891 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Thu Oct 13 21:49:50.961896 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961900 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961904 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Thu Oct 13 21:49:50.961909 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Thu Oct 13 21:49:50.961913 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961916 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961920 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Thu Oct 13 21:49:50.961927 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 199, referer: http://test.local/
+[Thu Oct 13 21:49:50.961930 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961934 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961937 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:199, referer: http://test.local/
+[Thu Oct 13 21:49:50.961944 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 201, referer: http://test.local/
+[Thu Oct 13 21:49:50.961947 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:49:50.961951 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:49:50.961960 2016] [:error] [pid 1912] [client 127.0.0.1:53950] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:201, referer: http://test.local/
+[Thu Oct 13 21:49:54.283583 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 126, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283619 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283628 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283635 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283641 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   3. mysql_connect() /home/tania/projects/test/add/include/dbconnect.php:126, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283663 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tania/projects/test/add/include/dbconnect.php on line 134, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283669 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283675 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283681 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283687 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   3. mysql_select_db() /home/tania/projects/test/add/include/dbconnect.php:134, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283727 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283734 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283743 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283749 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283755 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283765 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283770 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283775 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283780 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283786 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283844 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283852 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283858 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283864 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283870 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283879 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283883 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283889 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283895 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.283902 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284376 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Notice:  Undefined variable: myrow in /home/tania/projects/test/add/edit.php on line 244, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284392 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284398 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284800 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/edit.php on line 338, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284816 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284822 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284829 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. mysql_query() /home/tania/projects/test/add/edit.php:338, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284836 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/edit.php on line 338, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284839 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284843 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284847 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. mysql_query() /home/tania/projects/test/add/edit.php:338, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284859 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/edit.php on line 339, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284872 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284876 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284880 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. mysql_numrows() /home/tania/projects/test/add/edit.php:339, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284889 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/edit.php on line 341, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284892 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284895 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:49:54.284900 2016] [:error] [pid 26552] [client 127.0.0.1:53954] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/edit.php:341, referer: http://test.local/index.php
+[Thu Oct 13 21:50:01.564496 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 126, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564539 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564549 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564557 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564564 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_connect() /home/tania/projects/test/add/include/dbconnect.php:126, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564588 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tania/projects/test/add/include/dbconnect.php on line 134, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564595 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564602 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564608 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564616 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_select_db() /home/tania/projects/test/add/include/dbconnect.php:134, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564661 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564669 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564679 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564736 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564759 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564772 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564779 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564785 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564792 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564799 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564843 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564852 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564858 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564865 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564872 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564884 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564889 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564896 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564902 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/edit.php:3, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.564910 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586422 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/edit.php on line 64, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586471 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586481 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586489 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_query() /home/tania/projects/test/add/edit.php:64, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586504 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/edit.php on line 64, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586534 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586544 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586551 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_query() /home/tania/projects/test/add/edit.php:64, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586638 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/edit.php on line 73, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586648 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586663 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586671 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_query() /home/tania/projects/test/add/edit.php:73, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586683 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/edit.php on line 73, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586689 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586695 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/edit.php:0, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:01.586703 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_query() /home/tania/projects/test/add/edit.php:73, referer: http://test.local/edit.php
+[Thu Oct 13 21:50:03.927153 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 126, referer: http://test.local/
+[Thu Oct 13 21:50:03.927190 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.927199 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.927206 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:03.927213 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   3. mysql_connect() /home/tania/projects/test/add/include/dbconnect.php:126, referer: http://test.local/
+[Thu Oct 13 21:50:03.927238 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tania/projects/test/add/include/dbconnect.php on line 134, referer: http://test.local/
+[Thu Oct 13 21:50:03.927245 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.927252 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.927259 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:03.927266 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   3. mysql_select_db() /home/tania/projects/test/add/include/dbconnect.php:134, referer: http://test.local/
+[Thu Oct 13 21:50:03.927311 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Thu Oct 13 21:50:03.927332 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.927339 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.927345 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:03.927352 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Thu Oct 13 21:50:03.927364 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Thu Oct 13 21:50:03.927369 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.927375 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.927381 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:03.927387 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Thu Oct 13 21:50:03.927435 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Thu Oct 13 21:50:03.927443 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.927448 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.927454 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:03.927460 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Thu Oct 13 21:50:03.927469 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Thu Oct 13 21:50:03.927475 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.927479 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.927485 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:03.927491 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Thu Oct 13 21:50:03.928015 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Thu Oct 13 21:50:03.928030 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928038 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928055 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Thu Oct 13 21:50:03.928065 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Thu Oct 13 21:50:03.928070 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928076 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928082 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Thu Oct 13 21:50:03.928098 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 60, referer: http://test.local/
+[Thu Oct 13 21:50:03.928104 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928110 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928117 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:60, referer: http://test.local/
+[Thu Oct 13 21:50:03.928176 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Thu Oct 13 21:50:03.928183 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928190 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928195 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Thu Oct 13 21:50:03.928204 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Thu Oct 13 21:50:03.928208 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928214 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928220 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Thu Oct 13 21:50:03.928233 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 79, referer: http://test.local/
+[Thu Oct 13 21:50:03.928238 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928244 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928251 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:79, referer: http://test.local/
+[Thu Oct 13 21:50:03.928265 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 81, referer: http://test.local/
+[Thu Oct 13 21:50:03.928270 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928283 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928290 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:81, referer: http://test.local/
+[Thu Oct 13 21:50:03.928429 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 108, referer: http://test.local/
+[Thu Oct 13 21:50:03.928438 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928448 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928456 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:108, referer: http://test.local/
+[Thu Oct 13 21:50:03.928572 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Thu Oct 13 21:50:03.928582 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928589 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928597 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Thu Oct 13 21:50:03.928608 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Thu Oct 13 21:50:03.928614 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928620 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928627 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Thu Oct 13 21:50:03.928641 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 199, referer: http://test.local/
+[Thu Oct 13 21:50:03.928647 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928653 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928661 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:199, referer: http://test.local/
+[Thu Oct 13 21:50:03.928673 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 201, referer: http://test.local/
+[Thu Oct 13 21:50:03.928678 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:03.928685 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:03.928692 2016] [:error] [pid 26852] [client 127.0.0.1:54286] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:201, referer: http://test.local/
+[Thu Oct 13 21:50:08.113303 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 126, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113348 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113358 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113365 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/group.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113372 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_connect() /home/tania/projects/test/add/include/dbconnect.php:126, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113392 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tania/projects/test/add/include/dbconnect.php on line 134, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113398 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113405 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113412 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/group.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113419 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_select_db() /home/tania/projects/test/add/include/dbconnect.php:134, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113461 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113468 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113475 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113481 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/group.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113488 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113499 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113505 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113511 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113517 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/group.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113524 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113557 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113569 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113577 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113583 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/group.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113589 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113598 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113603 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113608 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113614 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/group.php:3, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.113619 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114189 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/group.php on line 155, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114204 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114211 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114217 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_query() /home/tania/projects/test/add/group.php:155, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114226 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/group.php on line 155, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114230 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114236 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114242 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_query() /home/tania/projects/test/add/group.php:155, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114260 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/group.php on line 156, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114266 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114273 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114280 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_numrows() /home/tania/projects/test/add/group.php:156, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114318 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/group.php on line 166, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114334 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114340 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/group.php:0, referer: http://test.local/index.php
+[Thu Oct 13 21:50:08.114348 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/group.php:166, referer: http://test.local/index.php
+[Thu Oct 13 21:50:09.418590 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 126, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418621 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418630 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418638 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/birthdays.php:2, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418644 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_connect() /home/tania/projects/test/add/include/dbconnect.php:126, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418665 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tania/projects/test/add/include/dbconnect.php on line 134, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418672 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418679 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418686 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/birthdays.php:2, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418693 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_select_db() /home/tania/projects/test/add/include/dbconnect.php:134, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418739 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418748 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418755 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418762 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/birthdays.php:2, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418769 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418781 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418787 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418803 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418825 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/birthdays.php:2, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418832 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418883 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418892 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418899 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418905 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/birthdays.php:2, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418913 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418925 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418931 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418938 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418945 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. include() /home/tania/projects/test/add/birthdays.php:2, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.418952 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430006 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/birthdays.php on line 28, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430040 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430049 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430056 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_query() /home/tania/projects/test/add/birthdays.php:28, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430068 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/birthdays.php on line 28, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430073 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430079 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430085 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_query() /home/tania/projects/test/add/birthdays.php:28, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430101 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/birthdays.php on line 29, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430120 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430127 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430133 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_numrows() /home/tania/projects/test/add/birthdays.php:29, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430195 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/birthdays.php on line 39, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430202 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP Stack trace:, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430208 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   1. {main}() /home/tania/projects/test/add/birthdays.php:0, referer: http://test.local/group.php
+[Thu Oct 13 21:50:09.430215 2016] [:error] [pid 26553] [client 127.0.0.1:54272] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/birthdays.php:39, referer: http://test.local/group.php
+[Thu Oct 13 21:50:11.105485 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 126, referer: http://test.local/
+[Thu Oct 13 21:50:11.105527 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.105538 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.105547 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:11.105555 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   3. mysql_connect() /home/tania/projects/test/add/include/dbconnect.php:126, referer: http://test.local/
+[Thu Oct 13 21:50:11.105691 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tania/projects/test/add/include/dbconnect.php on line 134, referer: http://test.local/
+[Thu Oct 13 21:50:11.105700 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.105707 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.105714 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:11.105721 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   3. mysql_select_db() /home/tania/projects/test/add/include/dbconnect.php:134, referer: http://test.local/
+[Thu Oct 13 21:50:11.105774 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Thu Oct 13 21:50:11.105781 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.105792 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.105798 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:11.105805 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Thu Oct 13 21:50:11.105831 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 141, referer: http://test.local/
+[Thu Oct 13 21:50:11.105837 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.105843 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.105849 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:11.105855 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:141, referer: http://test.local/
+[Thu Oct 13 21:50:11.105902 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Thu Oct 13 21:50:11.105911 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.105918 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.105925 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:11.105931 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Thu Oct 13 21:50:11.105942 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/include/dbconnect.php on line 142, referer: http://test.local/
+[Thu Oct 13 21:50:11.105948 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.105953 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.105959 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. include() /home/tania/projects/test/add/index.php:2, referer: http://test.local/
+[Thu Oct 13 21:50:11.105966 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   3. mysql_query() /home/tania/projects/test/add/include/dbconnect.php:142, referer: http://test.local/
+[Thu Oct 13 21:50:11.106604 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Thu Oct 13 21:50:11.106623 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.106632 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.106639 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Thu Oct 13 21:50:11.106651 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 59, referer: http://test.local/
+[Thu Oct 13 21:50:11.106657 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.106662 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.106682 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:59, referer: http://test.local/
+[Thu Oct 13 21:50:11.106700 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 60, referer: http://test.local/
+[Thu Oct 13 21:50:11.106706 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.106712 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.106718 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:60, referer: http://test.local/
+[Thu Oct 13 21:50:11.106782 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Thu Oct 13 21:50:11.106790 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.106803 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.106810 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Thu Oct 13 21:50:11.106821 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 78, referer: http://test.local/
+[Thu Oct 13 21:50:11.106827 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.106833 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.106840 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:78, referer: http://test.local/
+[Thu Oct 13 21:50:11.106855 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 79, referer: http://test.local/
+[Thu Oct 13 21:50:11.106862 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.106868 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.106874 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:79, referer: http://test.local/
+[Thu Oct 13 21:50:11.106891 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 81, referer: http://test.local/
+[Thu Oct 13 21:50:11.106898 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.106904 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.106911 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:81, referer: http://test.local/
+[Thu Oct 13 21:50:11.107044 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 108, referer: http://test.local/
+[Thu Oct 13 21:50:11.107054 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.107070 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.107078 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:108, referer: http://test.local/
+[Thu Oct 13 21:50:11.107199 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Thu Oct 13 21:50:11.107210 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.107217 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.107223 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Thu Oct 13 21:50:11.107234 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tania/projects/test/add/index.php on line 198, referer: http://test.local/
+[Thu Oct 13 21:50:11.107240 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.107246 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.107253 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_query() /home/tania/projects/test/add/index.php:198, referer: http://test.local/
+[Thu Oct 13 21:50:11.107267 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_numrows() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 199, referer: http://test.local/
+[Thu Oct 13 21:50:11.107273 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.107279 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.107284 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_numrows() /home/tania/projects/test/add/index.php:199, referer: http://test.local/
+[Thu Oct 13 21:50:11.107298 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tania/projects/test/add/index.php on line 201, referer: http://test.local/
+[Thu Oct 13 21:50:11.107303 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP Stack trace:, referer: http://test.local/
+[Thu Oct 13 21:50:11.107310 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   1. {main}() /home/tania/projects/test/add/index.php:0, referer: http://test.local/
+[Thu Oct 13 21:50:11.107317 2016] [:error] [pid 1911] [client 127.0.0.1:54283] PHP   2. mysql_fetch_array() /home/tania/projects/test/add/index.php:201, referer: http://test.local/

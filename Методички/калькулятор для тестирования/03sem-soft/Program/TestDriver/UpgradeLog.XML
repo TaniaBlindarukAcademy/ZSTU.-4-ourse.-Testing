@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TestDriver">
+</Property><Property Name="Файл решения" Value="E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\TestDriver.sln">
+</Property><Property Name="Файл параметров пользователя" Value="E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\TestDriver.suo">
+</Property><Property Name="Date" Value="19 февраля 2014 г.">
+</Property><Property Name="Time" Value="19:30">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TestDriver.sln" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver.sln">
+</Event><Event ErrorLevel="0" Project="" Source="TestDriver.suo" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver.suo">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\TestDriver.csproj" Description="Успешно создана резервная копия файла проекта: E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\TestDriver.csproj">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\MainForm.cs" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\MainForm.Designer.cs" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\Program.cs" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\Program.cs">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\Properties\AssemblyInfo.cs" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\Properties\Resources.Designer.cs" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\Properties\Settings.Designer.cs" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\Properties\Settings.settings" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\MainForm.resx" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\Properties\Resources.resx" Description="Успешно создана резервная копия файла E:\Тестирование ПО\калькулятор для тестирования\03sem-soft\Program\TestDriver\Backup\TestDriver\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\TestDriver.csproj" Description="Проект успешно преобразован">
+</Event><Event ErrorLevel="3" Project="TestDriver" Source="TestDriver\TestDriver.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TestDriver.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="TestDriver.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestDriver" Source="TestDriver\TestDriver.csproj" Description="Сканирование завершено: обновление для файлов проекта не требуется.">
+</Event></UpgradeLog>

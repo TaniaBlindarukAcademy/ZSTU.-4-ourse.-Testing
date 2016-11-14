@@ -1,0 +1,15 @@
+{
+    "name": "test/lab",
+    "authors": [
+        {
+            "name": "Tania Blindaruk",
+            "email": "t.blindaruk@gmail.com"
+        }
+    ],
+    "require": {
+        "facebook/webdriver": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit-selenium": "^2.53"
+    }
+}
