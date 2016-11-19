@@ -5,8 +5,11 @@
             <!--<file>tests/MoneyTest.php</file>-->
             <!--<file>tests/CurrencyTest.php</file>-->
         </testsuite>
+        <!--<testsuite name="search">-->
+            <!--<file>tests/Functional/SearchTest.php</file>-->
+        <!--</testsuite>-->
         <testsuite name="search">
-            <file>tests/Functional/SearchTest.php</file>
+            <file>tests/Address/AddToGroupTest.php</file>
         </testsuite>
     </testsuites>
 </phpunit>
