@@ -6,75 +6,84 @@
  * @corporation Maksi
  */
 
-//require_once 'src/Group/Model/Group.php';
+require_once 'src/Address/Model/Address.php';
+require_once 'src/Address/Model/Singleton.php';
 
 /**
  * Class Group_Create_Test
  */
-class Group_Address_Test extends \PHPUnit_Extensions_Selenium2TestCase
+class Address_Create_Test extends \PHPUnit_Extensions_Selenium2TestCase
 {
     protected function setUp()
     {
         $this->setBrowser("firefox");
-        $this->setBrowserUrl("http://test.local/group.php");
+        $this->setBrowserUrl("http://test.local/index.php");
     }
 
-    protected function scenario(Group_Model_Group $group)
+    protected function scenario($address)
     {
-        $this->openGroupList();
-        $this->goToCreateGroup();
-        $this->fieldForm($group);
+        $this->openAddressList();
+        $this->goToCreateAddress();
+        $this->fieldForm($address);
         $this->sendForm();
 
-        $this->assertRegExp('/A new group has been entered into the address book./',
-            $this->byCssSelector('#content .msgbox')->text());
     }
 
-    protected function openGroupList()
+    protected function openAddressList()
     {
-        $this->url("http://test.local/group.php");
-
-        $this->assertEquals('Groups | Address Book',$this->title());
-
+        $this->url("http://test.local/index.php");
         $this->screenshotInFolder();
     }
 
-    protected function goToCreateGroup()
+    protected function goToCreateAddress()
     {
-        $submitLink = $this->byCssSelector('input[type="submit"]');
+        $submitLink = $this->byCssSelector('#nav > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)');
         $submitLink->click();
 
         $this->screenshotInFolder();
     }
 
-    protected function fieldForm(Group_Model_Group $group)
+    protected function fieldForm($address)
     {
-        $groupName = $this->byCssSelector('#content > form:nth-child(2) > input:nth-child(2)');
-        $groupName->value($group->getName());
+        $firstName = $this->byCssSelector('#content > form:nth-child(2) > input:nth-child(3)');
+        $firstName->value($address->getFirstName());
 
-        $groupHeader = $this->byCssSelector('#content > form:nth-child(2) > textarea:nth-child(5)');
-        $groupHeader->value($group->getHeader());
+        $lastName = $this->byCssSelector('#content > form:nth-child(2) > input:nth-child(6)');
+        $lastName->value($address->getLastName());
 
-        $groupFooter = $this->byCssSelector('#content > form:nth-child(2) > textarea:nth-child(8)');
-        $groupFooter->value($group->getFooter());
+        $email = $this->byCssSelector('#content > form:nth-child(2) > input:nth-child(27)');
+        $email->value($address->getEmail());
+
+        $mobile = $this->byCssSelector('#content > form:nth-child(2) > input:nth-child(18)');
+        $mobile->value($address->getMobile());
 
         $this->screenshotInFolder();
+
+
     }
 
     protected function sendForm()
     {
-        $this->byCssSelector('#content > form:nth-child(2) > input:nth-child(11)')->click();
+        $this->byCssSelector('#content > form:nth-child(2) > input:nth-child(52)')->click();
 
         $this->screenshotInFolder();
     }
 
     public function testRandomField()
     {
-        $group = new Group_Model_Group();
-        $group->setName('Group Name' . rand(0, 100))
-            ->setHeader('Group Header' . rand(0, 100))
-            ->setFooter('Group Footer' . rand(0, 100));
-        $this->scenario($group);
+        /**var $address Address_Model_Address*/
+        $address = Address_Model_Singleton::getModel();
+        $address->setFirstName('First Name' . rand(0, 100))
+            ->setLastName('Last Name' . rand(0, 100))
+            ->setAddress('Address' . rand(0, 100))
+            ->setHome('Home' . rand(0, 100))
+            ->setMobile(rand(10000000000, 9999999999))
+            ->setWork('Work' . rand(0, 100))
+            ->setEmail('email' . rand(0, 100) . '@gmail.com')
+            ->setEmail2('email2' . rand(0, 100) . '@gmail.com');
+
+        var_dump($address);
+        $this->scenario($address);
     }
 
     public function screenshotInFolder()

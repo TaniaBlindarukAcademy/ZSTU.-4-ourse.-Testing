@@ -1,9 +1,12 @@
 <phpunit bootstrap="vendor/autoload.php">
     <testsuites>
         <testsuite name="money">
-            <file>tests/Group/CreateTest.php</file>
+            <!--<file>tests/Group/CreateTest.php</file>-->
             <!--<file>tests/MoneyTest.php</file>-->
             <!--<file>tests/CurrencyTest.php</file>-->
+        </testsuite>
+        <testsuite name="search">
+            <file>tests/Functional/SearchTest.php</file>
         </testsuite>
     </testsuites>
 </phpunit>
